@@ -24,8 +24,8 @@ const colors = {
       photoBorderColor: "white"
     }
   };
-  
-  function generateHTML(data) {
+  module.exports = 
+  function (data) {
     return `<!DOCTYPE html>
   <html lang="en">
      <head>
@@ -170,5 +170,7 @@ const colors = {
               zoom: .75; 
             } 
            }
-        </style>`
+        </style>
+        <body>${JSON.stringify(data.userData.data)}</body>`
+
           }
