@@ -14,13 +14,6 @@ const questions = [{
         message: "Choose your color!",
         choices: ["blue", "green", "pink", "red"]
     }];
-    
-
-
-// fs.writeFile("index.html",generateHTML(response,color),function(error,response){
-//     if (error) throw(error);
-
-// });
 
 
  async function init() {
